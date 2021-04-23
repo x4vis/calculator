@@ -11,10 +11,10 @@ const CalculadoraScreen = () => {
 
       <View style={styles.fila}>
 
-        <BotonCalc texto='C' />
-        <BotonCalc texto='+/-'/>
-        <BotonCalc texto='del'/>
-        <BotonCalc texto='/'/>
+        <BotonCalc texto='C' color="#9B9B9B" />
+        <BotonCalc texto='+/-' color="#9B9B9B"/>
+        <BotonCalc texto='del' color="#9B9B9B"/>
+        <BotonCalc texto='/' color="#FF9427"/>
 
       </View>
     </View>

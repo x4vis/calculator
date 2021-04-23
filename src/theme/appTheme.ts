@@ -22,21 +22,21 @@ export const styles = StyleSheet.create({
   },
   fila: {
     flexDirection: 'row',
-    justifyContent: 'center',
+    justifyContent: 'space-around',
     marginBottom: 18,
   },
 
   boton: {
     height: 80,
     width: 80,
-    backgroundColor: '#9B9B9B',
     borderRadius: 100,
     justifyContent: 'center',
+    marginHorizontal: 10,
   },
   botonTexto: {
-    color: 'black',
+    color: 'white',
+    padding: 10,
     fontSize: 30,
     textAlign: 'center',
-    padding: 10,
   }
 });
